@@ -20,3 +20,7 @@ This project is a embededd system course project. The aim of this project is to 
 4. Transfer motor.ko to gumstix
 5. run the command to initialise the device file:
 * mknod /dev/motor c 61 0 
+6. Unzip ul.zip file and go to this folder and run "make"
+7. Transfer the capture_yuyv file to gumstix inside the same folder
+8. insert the motor kernel: "insmod motor.ko"
+9. run capture_yuyv to start
