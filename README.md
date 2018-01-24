@@ -5,4 +5,4 @@ This project is a embededd system course project. The aim of this project is to 
 * Camera: Logitech Y270 Webcam
 * Motor driver: L293D
 * Self made mobile car: moter power supply 3V - 6V
-* Battery: For moter driver: 9V battery stepped down to 5V using a regulator. For Gumstix: 5V, 1A
+* Battery: for moter driver: 9V battery stepped down to 5V using a regulator; for Gumstix: 5V, 1A
