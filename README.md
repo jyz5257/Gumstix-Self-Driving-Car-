@@ -6,3 +6,17 @@ This project is a embededd system course project. The aim of this project is to 
 * Motor driver: L293D
 * Self made mobile car: moter power supply 3V - 6V
 * Battery: for moter driver: 9V battery stepped down to 5V using a regulator; for Gumstix: 5V, 1A
+## How to run
+* Go to Gumstix kernel
+* Insert the camera modules following these steps:
+insmod v4l2-common.ko
+insmod v4l1-compat.ko
+insmod compat_ioctl32.ko
+insmod videodev.ko
+insmod uvcvideo.ko
+* Unzip km.zip file and go to this folder, and do these steps:
+make clean
+make
+* Transfer motor.ko to gumstix
+* run the command to initialise the device file:
+mknod /dev/motor c 61 0 
